@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.highlight-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.highlight-item img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.highlight-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.highlight-item p {
+    font-size: 1.1em;
+}
+
+.highlight-item:hover {
+    transform: scale(1.05);
+}
+
+.cta-buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.highlight-item i {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 10px;
+}

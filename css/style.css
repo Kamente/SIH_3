@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.car-filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: none;
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.car-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav {
+    background-color: #555;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Form Styles */
+form {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    nav ul li {
+        float: none;
+        text-align: center;
+    }
+}
+
